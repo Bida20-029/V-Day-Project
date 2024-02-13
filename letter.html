@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-AU-Compatible" contant="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Good morning!</title>
+        <link rel="stylesheet" href="letter.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="envelope-wrapper">
+                <div class="envelope">
+                    <div class="letter">
+                        <div class="text">
+                            <strong> To Luvluv, </strong>
+                            <p>A golden ring he gave to me,</p>
+                            <p>A precious thing to own,</p>
+                            <p>But when I place it on my hand,</p>
+                            <p>The ring is not alone.</p>
+
+                            <p>"A golden ring, Maya Angelou"</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="heart"></div>
+            </div>
+        </div>
+        <script>
+            const envelope = document.querySelector('.envelope-wrapper');
+            envelope.addEventListener('click', () => {
+                envelope.classList.toggle('flap');
+            });
+        </script>
+    </body>
+</html>
